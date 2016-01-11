@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v4.util.LruCache;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -61,7 +62,7 @@ public class MainActivity extends Activity {
         setToDoList();
     }
 
-    public void createDo() {
+    public void createDo(View v) {
         saveToDo();
     }
 
